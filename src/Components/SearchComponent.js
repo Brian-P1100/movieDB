@@ -1,11 +1,17 @@
 import React from 'react'
 
-function Search() {
-    return (
-        <section className="searchbox-wrap">
-            <input type="text" placeholder="Search for a movie..." className="searchbox" />
-        </section>
-    )
+function Search ({ handleInput, search }) {
+	return (
+		<div className="searchbox-wrap">
+			<input 
+				type="text" 
+				placeholder="Search for a movie..." 
+				className="searchbox" 
+				onChange={handleInput}
+				onKeyPress={search}
+			/>
+		</div>
+	)
 }
 
 export default Search
