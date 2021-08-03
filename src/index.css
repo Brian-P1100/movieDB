@@ -126,6 +126,7 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0px -15px 30px;
+	color: #FFF;
 }
 
 .popup .content .plot img {

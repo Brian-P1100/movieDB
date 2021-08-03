@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Search from './Components/SearchComponent'
-import Results from './Components/ResultsComponent'
-import Popup from './Components/PopupComponent'
+import Results from './Components/Results'
+import Popup from './Components/Popup'
 
 function App() {
   const [state, setState] = useState ({
